@@ -1,14 +1,33 @@
+.header{
+    .header-menu{
+        a{  
+            font-size: 16px;
+            line-height: 1.5;
+            padding:14px 16.5px;
+
+            &:hover{
+                background: $danger;
+                color:$light;
+            }
+        }
+        
+    }
+}
+
 .footer{
     
     .subscripe{
         height: 320px;
-        background-image:url('../../images/img-1.jpg') ;
-        background-position: center;
+        background-image:url('../../../assets/images/footer-bg.jfif') ;
+        background-position: center center;
     }
 
     input[type="email"]{
         width: 214px;
         height: 48px;
+        border-radius: 4px 0px 0px 4px;
+        border:1px $light solid;
+        
 
         &::placeholder{
             padding: 12px;
@@ -20,7 +39,8 @@
         width: 136px;
         height: 48px;
         background: $danger;
-        border:none;
-        color:white;
+        border-radius: 0px 4px 4px 0px;
+        margin-left: -4px;
+        border:1px $danger solid;
     }
 }

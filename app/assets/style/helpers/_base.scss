@@ -4,10 +4,15 @@ img{
     height: auto;
 }
 
-.body{
+li{
+  list-style: none;
+}
+
+body{
     font-size: 16px;
     line-height: 1.5;
     font-family: "Roboto", "Noto Sans TC", sans-serif;
+    
 }
 
 .wrap{
