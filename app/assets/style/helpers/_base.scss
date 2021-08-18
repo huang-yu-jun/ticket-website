@@ -26,6 +26,10 @@ body{
     font-size: 2.5rem;//40px
 }
 
+.text-xls{
+    font-size: 2.25rem;//36px
+}
+
 .text-lg{
     font-size: 2rem;//32px
 }
@@ -76,12 +80,13 @@ h1{
     // }
 }
 
-p{
-    font-size: 1rem;
+h1,h2,h3,h4,h5,p{
+  margin-bottom: 0;
 }
 
+
 /*padding-top設定：4的倍數*/
-$max: 10;
+$max: 20;
 @for $i from 1 through $max {
   .pt#{$i} {
     padding-top : $i * 4px;
@@ -93,7 +98,7 @@ $max: 10;
 }
 
 /*padding-bottom設定：4的倍數*/
-$max: 10;
+$max: 20;
 @for $i from 1 through $max {
   .pb#{$i} {
     padding-bottom : $i * 4px;
@@ -114,6 +119,10 @@ $max: 10;
 
 .mr18{
     margin-right: 18px;
+}
+
+.mr30{
+  margin-right: 30px;
 }
 
 .border-info{
