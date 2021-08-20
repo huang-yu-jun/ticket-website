@@ -16,7 +16,7 @@ body{
 }
 
 .wrap{
-    width: 1140px;
+    width: 1110px;
     margin: 0 auto;
 }
 
@@ -84,6 +84,10 @@ h1,h2,h3,h4,h5,p{
   margin-bottom: 0;
 }
 
+/*border設定*/
+.no-border{
+  border: none;
+}
 
 /*padding-top設定：4的倍數*/
 $max: 20;
@@ -117,12 +121,28 @@ $max: 10;
   }
 }
 
+/*padding-left設定：4的倍數*/
+$max: 10;
+@for $i from 1 through $max {
+  .pl#{$i} {
+    padding-left : $i * 4px;
+  }
+}
+
+.pl70{
+  padding-left: 70px;
+}
+
 .mr18{
     margin-right: 18px;
 }
 
 .mr30{
   margin-right: 30px;
+}
+
+.mr60{
+  margin-right: 60px;
 }
 
 .border-info{
@@ -139,10 +159,22 @@ $max: 12;
   }
 }
 
+.mb34{
+  margin-bottom: 34px;
+}
+
+.mb45{
+  margin-bottom: 45px;
+}
+
 /*margin-right設定：4的倍數*/
 $max: 12;
 @for $i from 1 through $max {
   .mr#{$i} {
     margin-right : $i * 4px;
   }
+}
+
+.pr132{
+  padding-right: 132px;
 }

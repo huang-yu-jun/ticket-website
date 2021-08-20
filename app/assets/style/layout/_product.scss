@@ -17,3 +17,51 @@
 
 
 }
+
+
+
+    img-lg{
+        width: 350px;
+        height: 350px;
+    }
+
+
+
+.live-content{
+    height: 482px;
+    background-image: url('../images/img-2.jpg');
+    background-position: center center;
+}
+
+.img-sm{
+    width: 128px;
+    height: 128px;
+}
+
+.live-info{
+    height: 482px;
+    background: #190014CC;
+    color:#fff;
+
+    input[type="button"]{
+        width: 140px;
+        height: 44px;
+    }
+}
+
+
+.detail{
+    .sale{
+        img{
+            width: 540px;
+            height: 256px;
+        }
+
+        .num-button{
+            width: 24px;
+            height: 24px;
+            background: #fff;
+            border:none;
+        }
+    }
+}
