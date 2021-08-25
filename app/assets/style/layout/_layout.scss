@@ -25,8 +25,9 @@
     
     .subscripe{
         height: 320px;
-        background-image:url('../../assets/images/img-6.jpg') ;
+        background-image:url('../images/index-3.jpg') ;
         background-position: center center;
+        background-size:cover;
     }
 
     input[type="email"]{
@@ -54,8 +55,9 @@
 
 .index-banner{
     height: 480px;
-    background-image: url('../../assets/images/img-6.jpg');
-    background-position: 0 0;
+    background-image:url('../images/index-1.jpg') ;
+    background-position: center center;
+    background-size: cover;
 
     input[type="button"]{
         width: 160px;

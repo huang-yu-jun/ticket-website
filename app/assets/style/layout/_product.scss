@@ -14,10 +14,7 @@
             height: 285px;
         }
     }
-
-
 }
-
 
 
     img-lg{
@@ -25,12 +22,11 @@
         height: 350px;
     }
 
-
-
 .live-content{
     height: 482px;
-    background-image: url('/dist/assets/images/img-1.jpg');
+    background-image: url('../images/img-1.jpg');
     background-position: center center;
+    background-size: cover;
 }
 
 .img-sm{
