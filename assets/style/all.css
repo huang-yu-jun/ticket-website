@@ -12161,8 +12161,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, p {
 
 .footer .subscripe {
   height: 320px;
-  background-image: url("../images/img-6.jpg");
+  background-image: url("../images/index-3.jpg");
   background-position: center center;
+  background-size: cover;
 }
 
 .footer input[type="email"] {
@@ -12208,8 +12209,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, p {
 
 .index-banner {
   height: 480px;
-  background-image: url("../images/img-6.jpg");
-  background-position: 0 0;
+  background-image: url("../images/index-1.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 .index-banner input[type="button"] {
@@ -12247,8 +12249,9 @@ img-lg {
 
 .live-content {
   height: 482px;
-  background-image: url("/dist/assets/images/img-1.jpg");
+  background-image: url("../images/img-1.jpg");
   background-position: center center;
+  background-size: cover;
 }
 
 .img-sm {
