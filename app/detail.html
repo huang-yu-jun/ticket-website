@@ -5,22 +5,20 @@ engine: ejs
 current: detail
 ---
 <div class="detail">
-    <div class="wrap pt20">
-        <div class="sale d-flex">
-            <img src="./assets/images/img-3.jpg" alt="">
-            <div class="d-flex">
-                <ul class="d-flex">
-                    <li style="height: 256px; border-right:1px solid #000" clsss="d-flex align-items-center justify-content-center">
-                        <button class="font-weight-bolds num-button" id="subtraction"><i class="fas fa-minus"></i></button>
-                        <input class="text-center no-border font-weight-bold text-xl" type="text" id="ticket-num" value="01" size="2" >
-                        <button class="num-button mr60" id="plus"><i class="fas fa-plus"></i></button>
-                        <div class="text-center">張</div>
-                    </li>
-                    <li class="pl70">
-                        <h2>NT1350</h2>
-                    </li>
-                </ul>
+    <div class="wrap">
+        <div class="row pt20">
+            <div class="col-6">
+                <img class="productImg" src="../dist/assets/images/img-1.jpg" alt="">
             </div>
+            <div class="col-3">
+                <div class="d-flex">
+                    <button>-</button>
+                    <input type="number" name="" id="" value="01">
+                    <button>+</button>
+                </div>    
+                <div class="margin0">張</div>
+            </div>
+            <div class="col-3"></div>
 
         </div>
     </div>

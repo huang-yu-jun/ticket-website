@@ -7,8 +7,7 @@
             padding:14px 16.5px;
 
             &:hover{
-                background: $danger;
-                color:$light;
+                border-bottom: $danger 1px solid;
             }
         }
         
