@@ -12151,8 +12151,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, p {
 }
 
 .header .header-menu a:hover {
-  background: #E31277;
-  color: #E9ECEF;
+  border-bottom: #E31277 1px solid;
 }
 
 .preference img {
@@ -12268,16 +12267,9 @@ img-lg {
   height: 44px;
 }
 
-.detail .sale img {
+.detail .productImg {
   width: 540px;
   height: 256px;
-}
-
-.detail .sale .num-button {
-  width: 24px;
-  height: 24px;
-  background: #fff;
-  border: none;
 }
 
 /*# sourceMappingURL=all.css.map */
