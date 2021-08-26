@@ -47,8 +47,69 @@
 
 
 .detail{
+    .w-540{
+        width: 540px;
+    }
+
     .productImg{
         width: 540px;
         height: 256px;
+    }
+
+    .ticket-num{
+        border:none;
+        background: none;
+        text-align: center;
+    }
+
+    .ticket-num-word{
+        width: 50px;
+        margin: 0 40px 5px 40px;
+    }
+
+    .ticket-num-btn{
+        font-size: 24px;
+    }
+
+    .border-bottom-danger{
+        border-bottom: $danger 1px solid;
+    }
+
+    .aaa{
+        top :20px;
+        left:460px;
+    }
+}
+
+.active {
+    display: block;
+}
+
+
+.cart-list{
+    top:55px;
+    right: 500px;
+    height: 720px;
+    width: 540px;
+    display: none;
+
+    .cart-item{
+        width: 476px;
+        height: 172px;
+
+        img{
+            width: 125px;
+            height: 125px;
+        }
+
+        .cart-info{
+            padding:0px 32px 24px 32px; 
+        }
+    }
+
+    .ticket-num{
+        border:none;
+        background: none;
+        text-align: center;
     }
 }

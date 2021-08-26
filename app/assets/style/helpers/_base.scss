@@ -12,12 +12,12 @@ body{
     font-size: 16px;
     line-height: 1.5;
     font-family: "Roboto", "Noto Sans TC", sans-serif;
-    
+    box-sizing: border-box;
 }
 
 .wrap{
-    width: 1110px;
-    margin: 0 auto;
+    max-width: 1110px;
+    margin:0 auto;
 }
 
 /*字體大小設定*/
@@ -114,7 +114,7 @@ $max: 20;
 }
 
 /*padding-right設定：4的倍數*/
-$max: 10;
+$max: 20;
 @for $i from 1 through $max {
   .pr#{$i} {
     padding-right : $i * 4px;
@@ -122,10 +122,18 @@ $max: 10;
 }
 
 /*padding-left設定：4的倍數*/
-$max: 10;
+$max: 20;
 @for $i from 1 through $max {
   .pl#{$i} {
     padding-left : $i * 4px;
+  }
+}
+
+/*padding設定：4的倍數*/
+$max: 20;
+@for $i from 1 through $max {
+  .p#{$i} {
+    padding : $i * 4px;
   }
 }
 
@@ -177,4 +185,33 @@ $max: 12;
 
 .pr132{
   padding-right: 132px;
+}
+
+
+.border-right{
+  border-right: 1px solid #000;
+}
+
+.h-400{
+  height: 400px;
+}
+
+.obj-fit-cover{
+  object-fit: cover;
+}
+
+.h-559{
+  height: 559px;
+}
+
+.text-indent-2{
+  text-indent:2rem;
+}
+
+.position-absolute{
+  position: absolute;
+}
+
+.position-relative{
+  position: relative;
 }

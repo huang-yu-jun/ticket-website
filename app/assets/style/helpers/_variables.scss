@@ -75,6 +75,8 @@ $warning:       $yellow !default;
 $danger:        #E31277 !default;
 $light:         #E9ECEF !default;
 $dark:          #000000 !default;
+$lightgray:     #EFEFEF !default;
+$white:         $white !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -87,7 +89,8 @@ $theme-colors: (
   "danger":     #E31277,
   "light":      #E9ECEF,
   "dark":       #000000,
-  "lightgray":  #EFEFEF
+  "lightgray":  #EFEFEF,
+  "white":      #FFFFFF
 ) !default;
 // scss-docs-end theme-colors-map
 
