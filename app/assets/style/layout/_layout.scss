@@ -64,3 +64,55 @@
         height: 44px;
     }
 }
+
+.cart-list{
+    top: 55px;
+    right: 25px;
+    height: 720px;
+    width: 540px;
+    display: none;
+
+
+    .cart-item-detail{
+        height: 540px;
+        overflow-y:scroll;
+        overflow-x: hidden;
+
+        
+        &::-webkit-scrollbar{
+            width:5px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: $danger;
+            border-radius: 4px 0px 0px 4px;
+            margin-left: 30px;
+        }
+
+        &::-webkit-scrollbar-track{
+            background: #fff;
+            margin-left: 15px;
+        }
+    }
+
+    .cart-item{
+        width: 476px;
+        height: 172px;
+        border-radius: 4px;
+
+        img{
+            width: 125px;
+            height: 125px;
+        }
+
+        .cart-info{
+            padding:0px 32px 24px 32px; 
+        }
+    }
+
+    .ticket-num{
+        border:none;
+        background: none;
+        text-align: center;
+    }
+}

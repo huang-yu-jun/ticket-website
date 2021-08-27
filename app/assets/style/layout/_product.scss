@@ -80,36 +80,3 @@
         left:460px;
     }
 }
-
-.active {
-    display: block;
-}
-
-
-.cart-list{
-    top:55px;
-    right: 500px;
-    height: 720px;
-    width: 540px;
-    display: none;
-
-    .cart-item{
-        width: 476px;
-        height: 172px;
-
-        img{
-            width: 125px;
-            height: 125px;
-        }
-
-        .cart-info{
-            padding:0px 32px 24px 32px; 
-        }
-    }
-
-    .ticket-num{
-        border:none;
-        background: none;
-        text-align: center;
-    }
-}
